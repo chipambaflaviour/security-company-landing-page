@@ -3,15 +3,17 @@ import Skills from "./Skills";
 
 function App() {
   return (
-    <div style={{ padding: "40px" }}>
-      <h1>My React Profile</h1>
+    <div className="app-container">
+      <div className="app-content">
+        <h1>My React Profile</h1>
 
-      <ProfileCard
-        name="Flaviour Chipamba"
-        role="Frontend Developer"
-      />
+        <ProfileCard
+          name="Flaviour Chipamba"
+          role="Frontend Developer"
+        />
 
-      <Skills />
+        <Skills />
+      </div>
     </div>
   );
 }
