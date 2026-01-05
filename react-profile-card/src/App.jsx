@@ -1,4 +1,5 @@
 import ProfileCard from "./ProfileCard";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
         name="Flaviour Chipamba"
         role="Frontend Developer"
       />
+
+      <Skills />
     </div>
   );
 }
